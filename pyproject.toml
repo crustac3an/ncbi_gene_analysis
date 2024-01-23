@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "jupyterlab-environment"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <youremail@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+bokeh = "*"
+scikit-learn = "*"  # This is the package name for sklearn
+xgboost = "*"
+lightgbm = "*"
+plotly = "*"
+seaborn = "*"
+pyarrow = "*"
+polars = { version = "*", extras = ["all"] }
+jupyterlab = "*"
+notebook = "*"
+requests = "*"
+beautifulsoup4 = "*"
+pandas = "^2.0"
+aiohttp = "^3.9"
+numba = "*"
+scipy = "*"
+numpy = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
