@@ -7,6 +7,8 @@ The compose environment is assumed to be ran solely in local isolated system wit
 # Analysis
 All the results should be reproducable just by running `gene_expression_analysis.ipynb` noteoobk within jupyter-lab, after connecting to it. Some of the analysis might take a while, but it should all run in less than an hour.
 
+Link to the study: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE50206
+
 **Data**  
 Data should be in the working directory under `./data` folder. The data folder has to be created manually and the data uploaded there (either by having access to the data download link or scraping it - see below about scraping).
 
